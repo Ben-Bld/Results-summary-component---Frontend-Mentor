@@ -1,0 +1,40 @@
+@media screen and (max-width: 600px) {
+    .all {
+        flex-direction: column;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+        .containerResult {
+            margin: auto;
+            width: 100%;
+            border-top-right-radius: 0%;
+            border-top-left-radius: 0%;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+            padding: 0;
+            margin: auto;
+            .rating {
+                padding-top: 0%;
+            }
+            .review {
+                padding-bottom: 4%;
+            }
+        }
+
+        .containerSummary {
+            width: 80%;
+            padding-top: 6%;
+            .eachCategories {
+                margin-top: 20px;
+            }
+        }
+    }
+    
+
+
+
+}
+
+

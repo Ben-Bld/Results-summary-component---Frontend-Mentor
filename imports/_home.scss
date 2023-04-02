@@ -1,0 +1,123 @@
+.all {
+    width: 600px;
+    height: 400px;
+
+    margin: 20px auto;
+    box-shadow: 4px 13px 15px -5px rgba(0,0,0,0.22);
+    border-radius: 30px;
+    margin-top: 200px;
+    display: flex;
+
+    .containerResult {
+        width: 50%;
+        background: linear-gradient(150deg, $gradient1 0%, $gradient2 100%);
+        border-radius: 30px;
+        text-align: center;
+
+        .titleResult {
+            margin-top: 10%;
+            margin-bottom: 8%;
+        }
+
+        .scoreCircle {
+            width: 160px;
+            height: 160px;
+            margin: auto;
+            background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+            border-radius: 50%;
+
+            .score {
+                padding-top: 20%;
+                padding-bottom: 0%;
+                font-weight: bold;
+            }
+
+        }
+
+        .rating {
+            padding-top: 12%;
+            padding-bottom: 4%;
+        }
+
+        .review {
+            width: 65%;
+            margin: auto;
+        }
+    }
+}
+
+.containerSummary {
+    margin: auto;
+    width: 40%;
+    .categories {
+        font-size: 20px;
+        font-weight: bold;
+       .eachCategories {
+        margin-top: 10px;
+        height: 50px;
+       }
+       .eachCategories {
+        color: white;
+        display: flex;
+        border-radius: 10px; 
+        font-size: 16px;
+        width: 100%
+        ;
+    }
+    .reaction {
+       
+        
+        color: hsl(0, 100%, 67%);
+        background-color: hsl(0, 100%, 95%);
+       }
+       .memory {
+        color: hsl(39, 100%, 56%);
+       background-color: hsla(39, 100%, 92%, 0.718);
+        
+       }
+       .verbal {
+        color: hsl(166, 100%, 37%);
+        background-color: hsla(165, 89%, 93%, 0.564);
+       }
+       .visual {
+       color: hsl(234, 85%, 45%);
+       background-color: hsla(235, 62%, 90%, 0.503);
+       }
+       .type {
+        padding: 15px 0;
+       }
+       .icon {
+        height: 20px;
+        padding: 15px 10px;
+       }
+       .score3{
+        margin: auto;
+        color: grey;
+        font-weight: bold;
+        transform: translate(16px);
+       
+       }
+    }
+}
+
+button {
+    background: linear-gradient(150deg, $gradient1 0%, $gradient2 100%);
+    color: white;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    height: 20%;
+    padding: 14px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 20px;
+    font-size: 15px;
+    
+}
+.button {
+    margin: auto;
+    text-align: center;
+    :hover{
+        background: hsl(224, 30%, 27%);
+    }
+}

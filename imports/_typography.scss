@@ -1,0 +1,39 @@
+* {
+    font-family: "Hanken Grotesk";
+}
+
+.titleResult {
+    color: $secondaryFont;
+    font-size: 20px;
+}
+
+.score {
+    font-size: 65px;
+    color: white;
+}
+
+.score2 {
+    color: $secondaryFont;
+    font-size: 15px;
+    opacity: 0.6;
+}
+
+.rating {
+    color: white;
+    font-size: 23px;
+}
+
+.review {
+          color: white; 
+          font-size: 14px; 
+          opacity: 0.6;             
+}
+
+.scoreT {
+    font-weight: bold;
+    color: rgba(24, 24, 24, 0.921);
+}
+
+.title {
+    padding-left: 12px;
+}
